@@ -6,6 +6,9 @@
     
     .container{
     background: url('/adaptivemaket/assets/image/thomas-ae-295NLwGdrKM-unsplash.jpg') lightgray 50% / cover no-repeat;
+    min-height: 2000px;
+    max-width: 1920px;
+    margin: auto;
     }
     
     .header_menu{
@@ -23,20 +26,23 @@
     .logo{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        align-items: stretch;
+        justify-content: flex-end;
+        margin: 30px;
      
     
     }
     .logo_icons{
         height: 20px;
-        width: 180px;
+        width: 138px;
+       
+       
     }
     .contact{
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: end;
-        height: 100px;
+        max-height: 400px;
           
     
     }
@@ -45,6 +51,24 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2fr 1fr;
     
+    }
+    .card_text{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .services{
+        background: #3B181E;
+        width: 100%;
+    }
+    .galery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 400px);
+        margin: 0 auto;
+        padding: 20px;
+        gap: 5px;
     }
     .text{
     color: #FFF;
@@ -84,6 +108,7 @@
     line-height: normal;
     letter-spacing: 1.2px;
     text-align: center;
+   width: 138px;
     }
     .tel{
     color: #FFF;
@@ -142,6 +167,293 @@
         margin: 30px;
         justify-self: start;
     }
-    #vector, #vector1{
-        width: 50px;
+
+.galery_one{
+width: 350px;
+height: 365px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+}
+.img_one{
+background: url('/adaptivemaket/assets/image/свадебный.jpg'), no-repeat;
+ width: 330px;
+height: 223px;
+margin: 10px;
+color: #FFF;
+font-family: 'Forum';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.galery_two{
+width: 350px;
+height: 752px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+grid-row: 1/2;
+grid-column: 2/3;
+}
+.img_two{
+background: url('/adaptivemaket/assets/image/торжество.jpg'), no-repeat;
+width: 330px;
+ height: 610px;
+ margin: 10px;
+ color: #FFF;
+font-family: 'Forum';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.galery_three{
+width: 350px;
+height: 395px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+}
+.img_three{
+background: url('/adaptivemaket/assets/image/композиции.jpg');
+width: 330px;
+height: 300px;
+margin:10px;
+color: #FFF;
+font-family: 'Forum';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.galery_four{
+width: 350px;
+height: 350px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+}
+.img_four{
+width: 330px;
+height: 146px;
+background: url('/adaptivemaket/assets/image/мероприятия.jpg');
+margin: 10px;
+color: #FFF;
+font-family: 'Forum';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.galery_five{
+ width: 350px;
+height: 387px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+}
+.img_five{
+background: url('/adaptivemaket/assets/image/доставка.jpg');
+width: 330px;
+height: 245px;
+margin:10px;
+color: #FFF;
+font-family: 'Forum';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.galery_six{
+width: 350px;
+height: 288px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+grid-row: 2/3;
+grid-column: 3/4;
+}
+.img_six{
+ background: url('/adaptivemaket/assets/image/фотосессии.jpg');
+width: 330px;
+height: 146px;
+margin:10px;
+color: #FFF;
+font-family: 'Forum';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.galery_seven{
+width: 350px;
+height: 450px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+grid-column: 4/5;
+grid-row: 2/3;
+}
+.img_seven{
+background: url('/adaptivemaket/assets/image/курсы.jpg');
+width: 330px;
+height: 350px;
+margin:10px;
+color: #FFF;
+font-family: 'Forum';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.title_section{
+color: #FFF;
+font-family: 'Forum';
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.8px;
+text-transform: uppercase;
+margin: 20px;
+text-align: center;
+}
+#vector_title{
+width: 85.5px;
+stroke-width: 2px;
+stroke: #FFF;
+margin: 10px;
+}
+.section_divider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.img_text{
+width: 139px;
+height: 14.55px;
+color: #FFF;
+text-align: center;
+font-family: 'Forum';
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.8px;
+text-transform: uppercase;
+text-align: start;
+margin: 5px;
+}
+.img_title{
+width: 323px;
+color: #FFF;
+font-family: 'Forum';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%; /* 27.2px */
+letter-spacing: 1.6px;
+text-transform: uppercase;
+margin: 5px;
+}
+@media screen and (max-width:1440px){
+    .container.container{
+        max-width: 1440px;     
+}
+.container.services{
+    background: #3B181E;
+    max-width: 1440px;
+}
+.galery{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4,360px);
+}
+.galery_four{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.galery_five{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.galery_six{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.galery_seven{
+    grid-column: 3/4;
+    grid-row: 3/4;
+
+}
+}
+
+  @media screen and (max-width: 768px) {
+    .container.container{
+        max-width: 768px;
+  }
+  .header_menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Forum';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 10.8px;
+    text-transform: uppercase;
     }
+    .catalog-text{
+        color: #FFF;
+        font-family: 'Forum';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal;
+        letter-spacing: 1.2px;
+        transform: rotate(90deg);
+        margin: 0;
+        }
+        .catalog{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+  }
+ .container .services{
+    background: #3B181E;
+    max-width:768px ;
+}
+.galery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+}
+
+@media screen and (max-width: 425px){
+    .container.container{
+        max-width: 425px;
+     
+}
+.header_menu .logo{
+    margin: 5px;
+}
+.menu{
+    display:flex;  
+    flex-direction: column;
+    align-items: center;
+  }
+  .text{
+    font-size: 20px;
+    padding: 20px; 
+    }
+.container .works{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.works-buttom{
+    font-size: 10px;  
+}
+}
